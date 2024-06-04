@@ -1,0 +1,22 @@
+{
+  "name": "prepros-project",
+  "version": "1.0.0",
+  "description": "This is a dummy package.json file created by Prepros to manage packages with NPM. You can edit this file to add your own information.",
+  "scripts": {
+    "img": "node ./imagemin.mjs",
+    "sharp": "node ./sharp.mjs",
+    "resize": "node ./resizeImage.mjs",
+    "thumbnail": "node ./sharp_tbn.mjs"
+  },
+  "devDependencies": {
+    "imagemin": "^8.0.1",
+    "imagemin-avif": "^0.1.6",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^10.0.1",
+    "imagemin-webp": "^8.0.0",
+    "rimraf": "^5.0.1",
+    "sharp": "^0.33.2"
+  }
+}
